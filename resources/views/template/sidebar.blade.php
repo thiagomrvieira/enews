@@ -5,8 +5,8 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- Brand -->
-          <a class="navbar-brand pt-0" href="./index.html">
-            <img src="{{ asset('img/brand/blue.png') }}" class="navbar-brand-img" alt="...">
+          <a class="navbar-brand pt-0" href="/">
+            <img src="{{ asset('marca/voar.png') }}" class="navbar-brand-img" alt="...">
 
           </a>
           <!-- User -->
@@ -91,30 +91,39 @@
             <!-- Navigation -->
             <ul class="navbar-nav">
               <li class="nav-item  class=" active" ">
-              <a class=" nav-link active " href=" ./index.html"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
+              <a class=" nav-link active " href="/"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="./examples/icons.html">
-                  <i class="ni ni-planet text-blue"></i> Icons
+                  <i class="ni ni-archive-2 text-blue"></i> Publicações
+
                 </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link " href="./examples/icons.html">
+                    <i class="ni ni-ruler-pencil text-blue"></i> Nova publicação
+
+                </a>
+              </li>
+              {{-- <li class="nav-item">
                 <a class="nav-link " href="./examples/maps.html">
                   <i class="ni ni-pin-3 text-orange"></i> Maps
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="./examples/profile.html">
-                  <i class="ni ni-single-02 text-yellow"></i> User profile
-                </a>
-              </li>
+              </li> --}}
               <li class="nav-item">
                 <a class="nav-link " href="./examples/tables.html">
-                  <i class="ni ni-bullet-list-67 text-red"></i> Tables
+                    <i class="ni ni-bullet-list-67 text-blue"></i> Categorias
                 </a>
               </li>
+
               <li class="nav-item">
+                <a class="nav-link " href="./examples/profile.html">
+                  <i class="ni ni-single-02 text-blue"></i> Usuários
+                </a>
+              </li>
+
+              {{-- <li class="nav-item">
                 <a class="nav-link" href="./examples/login.html">
                   <i class="ni ni-key-25 text-info"></i> Login
                 </a>
@@ -123,7 +132,7 @@
                 <a class="nav-link" href="./examples/register.html">
                   <i class="ni ni-circle-08 text-pink"></i> Register
                 </a>
-              </li>
+              </li> --}}
             </ul>
             <!-- Divider -->
             <hr class="my-3">

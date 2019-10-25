@@ -13469,7 +13469,8 @@ button.bg-lighter:focus {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+  /* background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important; */
+  background: linear-gradient(87deg, #3877ba 0, #17b1e7 100%) !important;
 }
 
 .bg-gradient-secondary {
@@ -13764,7 +13765,8 @@ button.section-darker:focus {
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+  /* background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important; */
+  background: linear-gradient(87deg, #3877ba 0, #17b1e7 100%) !important;
 }
 
 .bg-gradient-secondary {
@@ -17271,7 +17273,7 @@ textarea[resize="horizontal"] {
   }
 
   .navbar-vertical.navbar-expand-md .navbar-brand-img {
-    max-height: 2.5rem;
+    max-height: 4.5rem;
   }
 
   .navbar-vertical.navbar-expand-md .navbar-user {
