@@ -112,7 +112,7 @@
                 </a>
               </li> --}}
               <li class="nav-item">
-                <a class="nav-link " href="./examples/tables.html">
+                <a class="nav-link " href="/categorias">
                     <i class="ni ni-bullet-list-67 text-blue"></i> Categorias
                 </a>
               </li>

@@ -16,7 +16,11 @@ Route::get('/', function () {
 });
 
 Route::get('/publicacoes', function () {
-    return view('backoffice.posts');
+    return view('backoffice.publicacoes');
+});
+
+Route::get('/categorias', function () {
+    return view('backoffice.categorias');
 });
 
 Route::get('/teste', function () {

@@ -22,7 +22,6 @@
                           <th scope="col">Estado</th>
                           <th scope="col">Publicado em</th>
                           <th scope="col">Ações</th>
-
                         </tr>
                       </thead>
                       <tbody>
@@ -74,7 +73,7 @@
                                 Não publicado
                             </td>
                             <td>
-                                22/10/2019
+                                -- / -- / ----
                             </td>
                             <td>
                                 <i class="fas fa-arrow-up text-primary mr-3"></i>
@@ -193,7 +192,7 @@
                   <h3 class="mb-0">Categorias</h3>
                 </div>
                 <div class="col text-right">
-                  <a href="#!" class="btn btn-sm btn-primary">Ver todas</a>
+                  <a href="/categorias" class="btn btn-sm btn-primary">Ver todas</a>
                 </div>
               </div>
             </div>
