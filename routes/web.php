@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('backoffice.dashboard');
+});
+
+Route::get('/publicacoes', function () {
+    return view('backoffice.posts');
 });
 
 Route::get('/teste', function () {

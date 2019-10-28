@@ -1,4 +1,4 @@
-@extends('template.app')
+@extends('template.app-dash')
 
 @section('content')
 <div class="row">

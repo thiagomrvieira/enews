@@ -91,11 +91,11 @@
             <!-- Navigation -->
             <ul class="navbar-nav">
               <li class="nav-item  class=" active" ">
-              <a class=" nav-link active " href="/"> <i class="ni ni-tv-2 text-primary"></i> Dashboard
+              <a class=" nav-link active " href="/"> <i class="ni ni-tv-2 text-blue"></i> Dashboard
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="./examples/icons.html">
+                <a class="nav-link " href="/publicacoes">
                   <i class="ni ni-archive-2 text-blue"></i> Publicações
 
                 </a>

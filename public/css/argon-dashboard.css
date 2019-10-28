@@ -14578,7 +14578,8 @@ button.section-darker:focus {
 }
 
 .text-blue {
-  color: #5e72e4 !important;
+  /* color: #5e72e4 !important;  */
+  color: #3877ba !important;
 }
 
 a.text-blue:hover,
